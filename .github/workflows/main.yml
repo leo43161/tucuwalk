@@ -73,7 +73,7 @@ jobs:
 
       # 8. Llama al script PHP para que descomprima el archivo
       - name: Trigger unzip on server
-        run: curl --fail "https://amadamia.com.ar/tucuwalk/extract.php?secret=${{ secrets.UNZIP_SECRET }}"
+        run: curl --fail "https://nortewalk.com.ar/extract.php?secret=${{ secrets.UNZIP_SECRET }}"
 
           # --- OPCIONES MODIFICADAS ---
           # dangerous-clean-slate: true # <-- ELIMINADO
